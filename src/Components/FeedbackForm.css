@@ -4,6 +4,9 @@ nav{
   text-align: center;
   font-size: 30px;
 }
+.stack{
+  margin-block-end: 5px ;
+}
 .feedback-form {
     max-width: 400px;
     margin: 50px auto;
@@ -35,6 +38,9 @@ nav{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+  .feedback-form input[type="radio"]{
+    margin-inline: 5px;
   }
   
   .feedback-form textarea {
